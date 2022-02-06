@@ -213,9 +213,7 @@ section {
 }
 
 .header nav .social-icons {
-  position: fixed;
-  bottom: 10%;
-  left: 45%;
+  margin-top: 15rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -323,7 +321,7 @@ section {
 .manager-section .bookmark-intro .btns .btn:nth-child(2) {
   border: none;
   background-color: whitesmoke;
-  color: #252b46;
+  color: #9194a1;
   -webkit-box-shadow: 2px 10px 5px -8px rgba(0, 0, 0, 0.24);
           box-shadow: 2px 10px 5px -8px rgba(0, 0, 0, 0.24);
   border: 0.2rem solid transparent;
@@ -332,7 +330,7 @@ section {
 
 .manager-section .bookmark-intro .btns .btn:nth-child(2):hover {
   background-color: transparent;
-  border: 0.2rem solid #252b46;
+  border: 0.2rem solid #9194a1;
 }
 
 .features {
