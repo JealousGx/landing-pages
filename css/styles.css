@@ -20,6 +20,14 @@ h1 {
   color: #252b46;
 }
 
+h2 {
+  font-size: 2.2rem;
+  color: #252b46;
+  margin-bottom: 1rem;
+  text-transform: none;
+  font-weight: 500;
+}
+
 p {
   font-size: 1.5rem;
   font-weight: 400;
@@ -341,14 +349,6 @@ section {
   text-align: center;
 }
 
-.features .features-para h2 {
-  font-size: 2.2rem;
-  font-weight: 500;
-  color: #252b46;
-  text-align: center;
-  padding-bottom: 2rem;
-}
-
 .features .btns-section {
   padding-top: 4rem;
   display: -webkit-box;
@@ -462,14 +462,54 @@ section {
   text-align: center;
 }
 
-.features .features-content .content h2 {
-  font-size: 2.2rem;
-  color: #252b46;
-  margin-bottom: 2rem;
-  text-transform: none;
-}
-
 .features .features-content.active {
   display: block;
+}
+
+.extension {
+  padding-top: 8rem;
+}
+
+.extension .extension-content {
+  text-align: center;
+  width: 100%;
+}
+
+.extension .extension-browsers .browser {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-top: 4rem;
+  width: 100%;
+  height: 35rem;
+  -webkit-box-shadow: 1px 6px 18px -8px rgba(0, 0, 0, 0.33);
+          box-shadow: 1px 6px 18px -8px rgba(0, 0, 0, 0.33);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.extension .extension-browsers .browser .browser-content {
+  padding-top: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.extension .extension-browsers .browser .browser-content .info {
+  margin-top: 4rem;
+  text-align: center;
 }
 /*# sourceMappingURL=styles.css.map */
