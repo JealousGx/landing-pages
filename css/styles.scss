@@ -332,6 +332,7 @@ section {
       font-size: 1.5rem;
       font-weight: $normal-font-weight;
       padding: 2rem;
+      cursor: pointer;
       border-top: 0.1rem solid rgba(14, 15, 17, 0.2);
 
       &:last-child {
@@ -350,6 +351,11 @@ section {
         height: 0.4rem;
         background-color: $soft-red;
         visibility: hidden;
+        transition: all 50ms linear;
+        -webkit-transition: all 50ms linear;
+        -moz-transition: all 50ms linear;
+        -ms-transition: all 50ms linear;
+        -o-transition: all 50ms linear;
       }
 
       &:nth-child(1) {
@@ -375,6 +381,12 @@ section {
       &:hover {
         opacity: 1;
 
+        &::after {
+          visibility: visible;
+        }
+      }
+
+      &.active {
         &::after {
           visibility: visible;
         }

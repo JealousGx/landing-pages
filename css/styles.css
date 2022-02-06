@@ -376,6 +376,7 @@ section {
   font-size: 1.5rem;
   font-weight: 400;
   padding: 2rem;
+  cursor: pointer;
   border-top: 0.1rem solid rgba(14, 15, 17, 0.2);
 }
 
@@ -401,6 +402,11 @@ section {
   height: 0.4rem;
   background-color: #fa5757;
   visibility: hidden;
+  transition: all 50ms linear;
+  -webkit-transition: all 50ms linear;
+  -moz-transition: all 50ms linear;
+  -ms-transition: all 50ms linear;
+  -o-transition: all 50ms linear;
 }
 
 .features .btns-section a:nth-child(1)::after {
@@ -422,6 +428,10 @@ section {
 }
 
 .features .btns-section a:hover::after {
+  visibility: visible;
+}
+
+.features .btns-section a.active::after {
   visibility: visible;
 }
 /*# sourceMappingURL=styles.css.map */
