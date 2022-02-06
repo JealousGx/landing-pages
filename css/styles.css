@@ -417,6 +417,10 @@ section {
   width: 8rem;
 }
 
+.features .btns-section a:hover {
+  opacity: 1;
+}
+
 .features .btns-section a:hover::after {
   visibility: visible;
 }

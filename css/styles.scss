@@ -373,6 +373,8 @@ section {
       }
 
       &:hover {
+        opacity: 1;
+
         &::after {
           visibility: visible;
         }
